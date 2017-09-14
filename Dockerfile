@@ -32,4 +32,5 @@ RUN sudo vca-install-package \
 # Install python packages
 RUN pip install --user \
   backports.functools_lru_cache \
-  cpplint
+  cpplint \
+  pystache
