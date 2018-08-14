@@ -33,4 +33,5 @@ RUN sudo vca-install-package \
 RUN pip install --user \
   backports.functools_lru_cache \
   cpplint \
-  pystache
+  pystache \
+  six
