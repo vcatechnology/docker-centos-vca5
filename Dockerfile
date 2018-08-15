@@ -34,4 +34,5 @@ RUN pip install --user \
   backports.functools_lru_cache \
   cpplint \
   pystache \
-  six
+  six \
+  requests
